@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+AI+%E5%B7%A5%E7%A8%8B%E5%B8%88;RAG+%C2%B7+Agents+%C2%B7+LLM+Eval+%C2%B7+Fine-tuning;Building+production-grade+AI+systems;7+projects+%C2%B7+434+unit+tests" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+AI+%E5%B7%A5%E7%A8%8B%E5%B8%88;RAG+%C2%B7+Agents+%C2%B7+LLM+Eval+%C2%B7+Fine-tuning;Building+production-grade+AI+systems;8+projects+%C2%B7+757+tests+passed" alt="Typing SVG" />
 </p>
 
 ---
@@ -13,7 +13,7 @@ role: "AI Engineer"
 focus: ["RAG", "Multi-Agent Systems", "LLM Evaluation", "PEFT Fine-tuning", "MCP Protocol"]
 languages: ["Python", "TypeScript", "Go"]
 frameworks: ["FastAPI", "LangGraph", "PyTorch", "Pydantic", "Docker"]
-testing: "434 unit tests across 7 projects"
+testing: "757 tests across 8 projects"
 philosophy: "If it doesn't have evals and CI gates, it's not production-ready."
 ```
 
@@ -21,7 +21,7 @@ philosophy: "If it doesn't have evals and CI gates, it's not production-ready."
 
 ## 🚀 AI Engineering Portfolio
 
-> 7 production-grade projects · 434 unit tests · all CI-green · all open-source
+> 8 production-grade projects · 757 tests · all CI-green · all open-source
 
 ### 1. Production-Grade RAG QA System
 
@@ -140,6 +140,26 @@ Byte-level BPE tokenizer implemented from scratch in pure Python (same algorithm
 
 ---
 
+### 8. VN-Lite — Web Visual Novel Engine
+
+<a href="https://github.com/Pasukalu/vn-lite/actions/workflows/ci.yml">
+  <img src="https://github.com/Pasukalu/vn-lite/actions/workflows/ci.yml/badge.svg" alt="CI" />
+</a>
+<a href="https://github.com/Pasukalu/vn-lite/actions/workflows/deploy.yml">
+  <img src="https://github.com/Pasukalu/vn-lite/actions/workflows/deploy.yml/badge.svg" alt="Deploy" />
+</a>
+<img src="https://img.shields.io/badge/tests-323%20passed-brightgreen" alt="Tests" />
+<img src="https://img.shields.io/badge/bundle-285KB-blue" alt="Bundle" />
+<img src="https://img.shields.io/badge/demo-live-success" alt="Demo" />
+
+Lightweight web-based visual novel engine + editor with a Ren'Py-inspired text DSL. Custom script language with variables, conditionals, loops, subroutines, expression engine, and text interpolation. Full game systems: character sprites, NVL mode, particles, inventory, timed choices, achievements, CG gallery, i18n. Zero external asset dependencies — pure SVG + CSS + Web Audio API.
+
+[**Live Demo**](https://pasukalu.github.io/vn-lite/) · `TypeScript` `React 18` `Vite` `CodeMirror 6` `Vitest` `Playwright`
+
+→ [**View Repository**](https://github.com/Pasukalu/vn-lite)
+
+---
+
 ## 📊 Portfolio at a Glance
 
 ```
@@ -153,12 +173,13 @@ Byte-level BPE tokenizer implemented from scratch in pure Python (same algorithm
 │  lora-finetuning         89   ~2,900   Model Fine-tuning            │
 │  mcp-agent-system        93   ~3,470   Protocol + Tool Orchestration│
 │  nanogpt-bpe            166   ~4,350   LLM Fundamentals             │
+│  vn-lite                323  ~13,400   Full-Stack Web Engine        │
 ├─────────────────────────────────────────────────────────────────────┤
-│  TOTAL                 434  ~19,420   AI Engineering Full Stack     │
+│  TOTAL                 757  ~32,820   AI Engineering Full Stack     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-**Coverage**: RAG → Model Serving → Multi-Agent → LLM Evaluation → Fine-tuning → MCP Protocol → LLM Fundamentals
+**Coverage**: RAG → Model Serving → Multi-Agent → LLM Evaluation → Fine-tuning → MCP Protocol → LLM Fundamentals → Full-Stack Web Engine
 
 ---
 
@@ -194,5 +215,5 @@ I'm open to AI Engineer opportunities. If you're hiring or want to collaborate:
 ---
 
 <p align="center">
-  <i>From bytes to tokens to embeddings to attention to generation — built from scratch, tested end-to-end.</i>
+  <i>From bytes to tokens to embeddings to attention to generation — and the full-stack engines that put them in production. Built from scratch, tested end-to-end.</i>
 </p>
