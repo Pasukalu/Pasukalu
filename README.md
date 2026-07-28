@@ -195,8 +195,10 @@ Before focusing on AI engineering, I built:
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Pasukalu&show_icons=true&theme=github_dark&bg_color=0D1117&hide_border=true&count_private=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pasukalu&layout=compact&theme=github_dark&bg_color=0D1117&hide_border=true&langs_count=8" />
+  <img src="https://img.shields.io/badge/public%20repos-31-blue?style=for-the-badge&logo=github" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/languages-Python%20%7C%20TypeScript%20%7C%20Go-blueviolet?style=for-the-badge&logo=probot" alt="Languages" />
+  <img src="https://img.shields.io/badge/tests-757%20passed-brightgreen?style=for-the-badge&logo=pytest" alt="Tests" />
+  <img src="https://img.shields.io/badge/CI%20pipelines-9%20all%20green-success?style=for-the-badge&logo=github-actions" alt="CI Pipelines" />
 </p>
 
 <p align="center">
