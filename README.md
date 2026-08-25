@@ -1,244 +1,78 @@
+<h1 align="center">Pasukalu / 帕苏卡露</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Engineer+%7C+AI+%E5%B7%A5%E7%A8%8B%E5%B8%88;RAG+%C2%B7+Agents+%C2%B7+LLM+Eval+%C2%B7+Fine-tuning;Building+production-grade+AI+systems;8+projects+%C2%B7+757+tests+passed" alt="Typing SVG" />
+  <strong>AI Engineer · Software Engineer · Creator</strong><br>
+  Building measurable AI systems, developer tools, and creative software.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Pasukalu?tab=repositories">Repositories</a>
+  ·
+  <a href="https://pasukalu.github.io/vn-lite/">VN-Lite Demo</a>
+  ·
+  <a href="https://haidian.open-city.ai/">Haidian Open City</a>
+  ·
+  <a href="mailto:mrpascalpa@icloud.com">Email</a>
 </p>
 
 ---
 
-## 👋 Hi, I'm Pasukalu
+## What I build
 
-**AI Engineer** based in Guangdong, China. I build production-grade AI systems — from RAG pipelines and multi-agent orchestration to LLM evaluation infrastructure and model fine-tuning. Every project ships with CI/CD, comprehensive tests, and evaluation gates.
+I like projects that turn a vague idea into something people can run, inspect, and improve. My current work focuses on:
 
-Before the code, I spent 5 years as a content creator and community operator — 18k+ followers, 8k-member communities, 100k+ plays, and features by The Paper (澎湃新闻) and Luo Tianyi official. That product sense carries into everything I build.
+- **Applied AI systems** — RAG, model serving, multi-agent workflows, evaluation, and fine-tuning.
+- **Developer infrastructure** — MCP servers, tool orchestration, CI quality gates, safety checks, and observability.
+- **Creative software** — visual-novel engines, design-system prompts, and multilingual content tools.
+- **Open collaboration** — structured briefs and validation workflows for AI-assisted urban design.
 
-```yaml
-role: "AI Engineer"
-focus: ["RAG", "Multi-Agent Systems", "LLM Evaluation", "PEFT Fine-tuning", "MCP Protocol"]
-languages: ["Python", "TypeScript", "Go"]
-frameworks: ["FastAPI", "LangGraph", "PyTorch", "Pydantic", "Docker"]
-testing: "757 tests across 8 projects"
-soft_skills: ["Product Sense", "Community Growth", "Content Strategy", "Business Japanese"]
-philosophy: "If it doesn't have evals and CI gates, it's not production-ready."
-```
+## Featured work
 
----
+| Project | What it demonstrates |
+| --- | --- |
+| [haidian](https://github.com/Pasukalu/haidian) | AI-readable urban-design brief, public-source registry, validation rules, and an open submission workflow. |
+| [rag-qa-system](https://github.com/Pasukalu/rag-qa-system) | Hybrid BM25 + dense retrieval, RRF fusion, cross-encoder reranking, grounded citations, and evaluation gates. |
+| [mcp-agent-system](https://github.com/Pasukalu/mcp-agent-system) | MCP Tools / Resources / Prompts, plan–execute–verify orchestration, and safety-focused tool execution. |
+| [llm-eval-suite](https://github.com/Pasukalu/llm-eval-suite) | Golden-set evaluation across lexical, grounding, relevance, cost, and latency dimensions with CI quality gates. |
+| [model-serving-api](https://github.com/Pasukalu/model-serving-api) | Model versioning, deterministic A/B routing, batch inference, health checks, and runtime metrics. |
+| [vn-lite](https://github.com/Pasukalu/vn-lite) | A TypeScript visual-novel engine and editor with its own script language, runtime systems, and live demo. |
 
-## 🚀 AI Engineering Portfolio
+## More projects
 
-> 8 production-grade projects · 757 tests · all CI-green · all open-source
+- [lora-finetuning](https://github.com/Pasukalu/lora-finetuning) — LoRA / QLoRA experiments with base-versus-tuned evaluation.
+- [nanogpt-bpe](https://github.com/Pasukalu/nanogpt-bpe) — A byte-level BPE tokenizer and small Transformer implemented from scratch.
+- [claude-design-system-prompt](https://github.com/Pasukalu/claude-design-system-prompt) — A design-system prompt and procedural skill library for AI coding assistants.
+- [blissflow-short-copy](https://github.com/Pasukalu/blissflow-short-copy) — A local-first, multi-provider copy generator for short copy, long copy, and video scripts.
 
-### 1. Production-Grade RAG QA System
+## How I work
 
-<a href="https://github.com/Pasukalu/rag-qa-system/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/rag-qa-system/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-10%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/recall%405-1.0-blue" alt="Recall" />
-<img src="https://img.shields.io/badge/hallucination-0%25-success" alt="Hallucination" />
+- **Measure quality, not just whether the demo runs.** Tests and evaluation gates belong close to the feature they protect.
+- **Make trade-offs visible.** Latency, cost, failure modes, and safety are part of the design.
+- **Ship understandable systems.** A good README, reproducible setup, and clear boundaries matter as much as the implementation.
+- **Build for iteration.** Small composable components make experiments easier to compare and real systems easier to extend.
 
-Two-stage retrieval pipeline: BM25 + dense embeddings fused via RRF → cross-encoder reranking. CI-gated evaluation (recall@k, MRR, faithfulness) auto-blocks PRs on quality regression. Dockerized with token-level cost tracking ($0.0003/query).
+## Toolbox
 
-`Python` `FastAPI` `sentence-transformers` `rank-bm25` `Docker`
+**Languages**  
+Python · TypeScript · JavaScript · HTML / CSS · Shell
 
-→ [**View Repository**](https://github.com/Pasukalu/rag-qa-system)
+**AI and backend**  
+FastAPI · LangGraph · Pydantic · PyTorch · sentence-transformers · PEFT
 
----
+**Platform and tooling**  
+Docker · GitHub Actions · React · Vite · SQLite · Playwright
 
-### 2. Model Serving API with A/B Testing
+## Background
 
-<a href="https://github.com/Pasukalu/model-serving-api/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/model-serving-api/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-25%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/endpoints-8-blue" alt="Endpoints" />
+Before focusing on AI engineering, I worked across content production, community projects, music, and game / visual-novel projects. That experience shapes how I build today: technically sound systems should also be understandable, useful, and worth returning to.
 
-Production ML inference API with model versioning, hash-based A/B router for deterministic traffic splitting, and sliding-window metrics (p50/p95 latency, error rate). Runtime config hot-reload — no restart needed.
+## Connect
 
-`Python` `FastAPI` `sentence-transformers` `scikit-learn` `Docker`
+I am open to collaborating on AI engineering, developer tools, creative technology, and public-interest projects.
 
-→ [**View Repository**](https://github.com/Pasukalu/model-serving-api)
-
----
-
-### 3. Multi-Agent Research System (LangGraph)
-
-<a href="https://github.com/Pasukalu/multi-agent-system/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/multi-agent-system/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-67%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/tools-6-blue" alt="Tools" />
-<img src="https://img.shields.io/badge/guardrails-3-success" alt="Guardrails" />
-
-4-node LangGraph pipeline (planner → executor → reviewer → reporter) with conditional routing, human-in-the-loop approval via checkpoint interrupt, and 3 guardrails (cost cap, exponential backoff retry, AST-validated safety checks).
-
-`Python` `LangGraph` `FastAPI` `Pydantic` `Docker`
-
-→ [**View Repository**](https://github.com/Pasukalu/multi-agent-system)
-
----
-
-### 4. LLM Evaluation Suite
-
-<a href="https://github.com/Pasukalu/llm-eval-suite/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/llm-eval-suite/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-84%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/golden%20set-200-blue" alt="Golden Set" />
-<img src="https://img.shields.io/badge/CI%20gates-4-success" alt="CI Gates" />
-
-200-case golden set across 6 categories with 10 metrics per case: lexical (EM, Token F1, ROUGE-L), RAGAS-inspired (faithfulness, answer relevance, context precision), and LLM-as-judge (correctness × completeness × clarity). 4 CI quality gates auto-block PRs.
-
-`Python` `FastAPI` `Pydantic` `Docker`
-
-→ [**View Repository**](https://github.com/Pasukalu/llm-eval-suite)
-
----
-
-### 5. LoRA Fine-tuning with Base-vs-Tuned Evaluation
-
-<a href="https://github.com/Pasukalu/lora-finetuning/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/lora-finetuning/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-89%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/improvement-0.12%E2%86%920.80-success" alt="Improvement" />
-
-Dual-mode LoRA/QLoRA fine-tuning pipeline (stub for CI + real with PEFT/transformers). Base-vs-tuned comparison with multi-metric scoring (exact match, Token F1, ROUGE-L) and automatic deployment recommendation. 170 training / 50 evaluation samples across 4 task types.
-
-`Python` `PEFT` `Transformers` `FastAPI` `Docker`
-
-→ [**View Repository**](https://github.com/Pasukalu/lora-finetuning)
-
----
-
-### 6. MCP Server + Agent Tool Orchestration
-
-<a href="https://github.com/Pasukalu/mcp-agent-system/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/mcp-agent-system/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-93%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/tools-6-blue" alt="Tools" />
-<img src="https://img.shields.io/badge/safety-AST%20validated-success" alt="Safety" />
-
-Model Context Protocol server with 3 primitives (Tools/Resources/Prompts) and 6 sandboxed tools: AST-validated code executor, virtual filesystem manager, simulated web searcher, CSV data analyzer, git helper, and math calculator. Agent orchestration with plan-execute-verify loop.
-
-`Python` `FastAPI` `Pydantic` `Docker`
-
-→ [**View Repository**](https://github.com/Pasukalu/mcp-agent-system)
-
----
-
-### 7. nanoGPT + BPE Tokenizer (From Scratch)
-
-<a href="https://github.com/Pasukalu/nanogpt-bpe/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/nanogpt-bpe/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<img src="https://img.shields.io/badge/tests-166%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/compression-2.75x-blue" alt="Compression" />
-<img src="https://img.shields.io/badge/params-10M-blueviolet" alt="Params" />
-
-Byte-level BPE tokenizer implemented from scratch in pure Python (same algorithm as GPT-2/GPT-4). Complete Transformer architecture with documented math: LayerNorm, multi-head causal self-attention (softmax(QK^T/√d_k)V), GELU, pre-norm residual blocks. Dual-mode training (stub: bigram / real: torch).
-
-`Python` `FastAPI` `Pydantic` `Docker`
-
-→ [**View Repository**](https://github.com/Pasukalu/nanogpt-bpe)
-
----
-
-### 8. VN-Lite — Web Visual Novel Engine
-
-<a href="https://github.com/Pasukalu/vn-lite/actions/workflows/ci.yml">
-  <img src="https://github.com/Pasukalu/vn-lite/actions/workflows/ci.yml/badge.svg" alt="CI" />
-</a>
-<a href="https://github.com/Pasukalu/vn-lite/actions/workflows/deploy.yml">
-  <img src="https://github.com/Pasukalu/vn-lite/actions/workflows/deploy.yml/badge.svg" alt="Deploy" />
-</a>
-<img src="https://img.shields.io/badge/tests-323%20passed-brightgreen" alt="Tests" />
-<img src="https://img.shields.io/badge/bundle-285KB-blue" alt="Bundle" />
-<img src="https://img.shields.io/badge/demo-live-success" alt="Demo" />
-
-Lightweight web-based visual novel engine + editor with a Ren'Py-inspired text DSL. Custom script language with variables, conditionals, loops, subroutines, expression engine, and text interpolation. Full game systems: character sprites, NVL mode, particles, inventory, timed choices, achievements, CG gallery, i18n. Zero external asset dependencies — pure SVG + CSS + Web Audio API.
-
-[**Live Demo**](https://pasukalu.github.io/vn-lite/) · `TypeScript` `React 18` `Vite` `CodeMirror 6` `Vitest` `Playwright`
-
-→ [**View Repository**](https://github.com/Pasukalu/vn-lite)
-
----
-
-## 📊 Portfolio at a Glance
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  Project              Tests   Lines    Core Capability              │
-├─────────────────────────────────────────────────────────────────────┤
-│  rag-qa-system           10   ~1,300   AI/ML Pipeline Design        │
-│  model-serving-api       25   ~1,800   ML Serving Engineering       │
-│  multi-agent-system      67   ~2,800   Agent System Design          │
-│  llm-eval-suite          84   ~2,800   Evaluation Engineering       │
-│  lora-finetuning         89   ~2,900   Model Fine-tuning            │
-│  mcp-agent-system        93   ~3,470   Protocol + Tool Orchestration│
-│  nanogpt-bpe            166   ~4,350   LLM Fundamentals             │
-│  vn-lite                323  ~13,400   Full-Stack Web Engine        │
-├─────────────────────────────────────────────────────────────────────┤
-│  TOTAL                 757  ~32,820   AI Engineering Full Stack     │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-**Coverage**: RAG → Model Serving → Multi-Agent → LLM Evaluation → Fine-tuning → MCP Protocol → LLM Fundamentals → Full-Stack Web Engine
-
----
-
-## 🌱 The Path Here: Content → Games → AI
-
-I didn't start with code — I started by making things people actually watch, read, and play:
-
-- **Fan visual novel producer** — led *提瓦特事件簿*, a Genshin-themed fan visual novel built on Unity/Naninovel: 18,000+ followers, 8,000+ member fan group, 5.59M+ Weibo topic reads, 4,500+ interactions.
-- **Video creator & producer** — *博物图志* science series (96k+ views, 11k fans, covered by The Paper), plus a 100k+ play VOCALOID MV that ranked #3 on Bilibili's Weekly VOCALOID Chinese Chart and #182 on the 2020 annual chart.
-- **Community builder** — ran a high-retention 8,000-person fan community and delivered 200+ content projects end-to-end, with features by The Paper and Luo Tianyi official.
-
-That first project is exactly why [vn-lite](https://github.com/Pasukalu/vn-lite) exists: I managed a visual novel built on someone else's engine, then wrote my own from scratch — script language, editor, and all.
-
----
-
-## 🛍️ Other Work
-
-**AI-powered products**
-
-- **[BlissShop](https://blissshop.life)** — Fashion e-commerce brand for the confident Asian woman
-- **[blissflow-short-copy](https://github.com/Pasukalu/blissflow-short-copy)** — AI-powered copy generator (short copy, long copy, video scripts) in Traditional Chinese, English & Japanese
-
-**Creative & content track (5 years, before AI)**
-
-- **提瓦特事件簿** — Genshin fan visual novel · producer & music lead · 18k+ followers, 8k+ community, 5.59M+ Weibo reads
-- **《博物图志》** — science video series · creator & producer · 96k+ views, 11k fans, featured by The Paper
-- **《非常行为准则》MV** — VOCALOID MV · producer · 100k+ plays · Bilibili Chinese Chart #406 3rd, 2020 annual #182
-- **《黄庄南街D出口》** — graduation song · producer · recommended by Luo Tianyi official
-- **Event seat-query H5** — full-stack build & ops on Tencent Cloud CDN (1ms pings in some regions, zero downtime)
-
----
-
-## 📈 GitHub Stats
+- Email: [mrpascalpa@icloud.com](mailto:mrpascalpa@icloud.com)
+- GitHub: [@Pasukalu](https://github.com/Pasukalu)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/public%20repos-31-blue?style=for-the-badge&logo=github" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/languages-Python%20%7C%20TypeScript%20%7C%20Go-blueviolet?style=for-the-badge&logo=probot" alt="Languages" />
-  <img src="https://img.shields.io/badge/tests-757%20passed-brightgreen?style=for-the-badge&logo=pytest" alt="Tests" />
-  <img src="https://img.shields.io/badge/CI%20pipelines-9%20all%20green-success?style=for-the-badge&logo=github-actions" alt="CI Pipelines" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pasukalu&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## 📫 Let's Connect
-
-I'm open to AI Engineer opportunities. If you're hiring or want to collaborate:
-
-- 📧 mrpascalpa@icloud.com
-- 💼 [Projects & Details](https://github.com/Pasukalu?tab=repositories)
-
----
-
-<p align="center">
-  <i>From bytes to tokens to embeddings to attention to generation — and the full-stack engines that put them in production. Built from scratch, tested end-to-end.</i>
+  <i>Build the system. Measure the result. Leave it easier to use than you found it.</i>
 </p>
