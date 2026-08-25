@@ -1,7 +1,7 @@
 <h1 align="center">Pasukalu / 帕苏卡露</h1>
 
 <p align="center">
-  <strong>AI Engineer · Software Engineer · Creator</strong><br>
+  <strong>HK AI Engineer (WFH) · Software Engineer · Creator</strong><br>
   Building measurable AI systems, developer tools, and creative software.
 </p>
 
@@ -19,7 +19,7 @@
 
 ## What I build
 
-I like projects that turn a vague idea into something people can run, inspect, and improve. My current work focuses on:
+I currently work as an **HK AI Engineer (WFH)**. I like projects that turn a vague idea into something people can run, inspect, and improve. My current work focuses on:
 
 - **Applied AI systems** — RAG, model serving, multi-agent workflows, evaluation, and fine-tuning.
 - **Developer infrastructure** — MCP servers, tool orchestration, CI quality gates, safety checks, and observability.
