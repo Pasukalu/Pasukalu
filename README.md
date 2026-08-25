@@ -1,78 +1,71 @@
-<h1 align="center">Pasukalu / 帕苏卡露</h1>
+<div align="center">
 
-<p align="center">
-  <strong>HK AI Engineer (WFH) · Software Engineer · Creator</strong><br>
-  Building measurable AI systems, developer tools, and creative software.
-</p>
+# Pasukalu · 帕苏卡露
 
-<p align="center">
-  <a href="https://github.com/Pasukalu?tab=repositories">Repositories</a>
-  ·
-  <a href="https://pasukalu.github.io/vn-lite/">VN-Lite Demo</a>
-  ·
-  <a href="https://haidian.open-city.ai/">Haidian Open City</a>
-  ·
-  <a href="mailto:mrpascalpa@icloud.com">Email</a>
-</p>
+**HK AI Engineer (WFH) · LLM Systems · Developer Tools**
+
+Building reliable AI systems with retrieval, agents, evaluation, serving, and fine-tuning.
+
+[Projects](https://github.com/Pasukalu?tab=repositories) · [VN-Lite live demo](https://pasukalu.github.io/vn-lite/) · [Email](mailto:mrpascalpa@icloud.com)
+
+</div>
 
 ---
 
-## What I build
+## About
 
-I currently work as an **HK AI Engineer (WFH)**. I like projects that turn a vague idea into something people can run, inspect, and improve. My current work focuses on:
+I currently work as an **HK AI Engineer (WFH)**, building production-minded AI systems that are measurable, testable, and easy to evolve—from hybrid RAG pipelines and multi-agent workflows to model serving, LLM evaluation, PEFT fine-tuning, and MCP tooling.
 
-- **Applied AI systems** — RAG, model serving, multi-agent workflows, evaluation, and fine-tuning.
-- **Developer infrastructure** — MCP servers, tool orchestration, CI quality gates, safety checks, and observability.
-- **Creative software** — visual-novel engines, design-system prompts, and multilingual content tools.
-- **Open collaboration** — structured briefs and validation workflows for AI-assisted urban design.
+My background also includes games, science communication, music production, and community building. That experience shapes how I work: strong engineering is only useful when it solves a real user problem.
+
+- **Focus:** RAG · Agents · LLM evaluation · Model serving · LoRA / QLoRA · MCP
+- **Current role:** HK AI Engineer (WFH)
+- **Languages:** Python · TypeScript · Go
+- **Stack:** FastAPI · LangGraph · PyTorch · Pydantic · Docker · GitHub Actions
+- **Based in:** Guangdong, China
+- **Open to:** AI/ML engineering, developer tools, and thoughtful open-source collaboration
 
 ## Featured work
 
+### AI systems
+
 | Project | What it demonstrates |
 | --- | --- |
-| [haidian](https://github.com/Pasukalu/haidian) | AI-readable urban-design brief, public-source registry, validation rules, and an open submission workflow. |
-| [rag-qa-system](https://github.com/Pasukalu/rag-qa-system) | Hybrid BM25 + dense retrieval, RRF fusion, cross-encoder reranking, grounded citations, and evaluation gates. |
-| [mcp-agent-system](https://github.com/Pasukalu/mcp-agent-system) | MCP Tools / Resources / Prompts, plan–execute–verify orchestration, and safety-focused tool execution. |
-| [llm-eval-suite](https://github.com/Pasukalu/llm-eval-suite) | Golden-set evaluation across lexical, grounding, relevance, cost, and latency dimensions with CI quality gates. |
-| [model-serving-api](https://github.com/Pasukalu/model-serving-api) | Model versioning, deterministic A/B routing, batch inference, health checks, and runtime metrics. |
-| [vn-lite](https://github.com/Pasukalu/vn-lite) | A TypeScript visual-novel engine and editor with its own script language, runtime systems, and live demo. |
+| [RAG QA System](https://github.com/Pasukalu/rag-qa-system) | Hybrid BM25 + dense retrieval fused with RRF, cross-encoder reranking, grounded citations, cost tracking, and CI-friendly evaluation. |
+| [Multi-Agent Research System](https://github.com/Pasukalu/multi-agent-system) | LangGraph orchestration with planner → executor → reviewer → reporter flow, human approval, checkpoint persistence, retries, and safety guardrails. |
+| [LLM Evaluation Suite](https://github.com/Pasukalu/llm-eval-suite) | Golden-set evaluation across lexical accuracy, faithfulness, relevance, cost, and latency, with configurable CI quality gates. |
+| [MCP Agent System](https://github.com/Pasukalu/mcp-agent-system) | MCP Tools / Resources / Prompts, six sandboxed tools, plan–execute–verify orchestration, and evaluation hooks. |
+| [Model Serving API](https://github.com/Pasukalu/model-serving-api) | Versioned inference, deterministic A/B routing, lazy model loading, input validation, and real-time latency/error metrics. |
 
-## More projects
+### Foundations & products
 
-- [lora-finetuning](https://github.com/Pasukalu/lora-finetuning) — LoRA / QLoRA experiments with base-versus-tuned evaluation.
-- [nanogpt-bpe](https://github.com/Pasukalu/nanogpt-bpe) — A byte-level BPE tokenizer and small Transformer implemented from scratch.
-- [claude-design-system-prompt](https://github.com/Pasukalu/claude-design-system-prompt) — A design-system prompt and procedural skill library for AI coding assistants.
-- [blissflow-short-copy](https://github.com/Pasukalu/blissflow-short-copy) — A local-first, multi-provider copy generator for short copy, long copy, and video scripts.
+| Project | What it demonstrates |
+| --- | --- |
+| [nanoGPT + BPE](https://github.com/Pasukalu/nanogpt-bpe) | Byte-level BPE tokenization and a GPT-style decoder-only Transformer implemented from first principles. |
+| [LoRA Fine-tuning](https://github.com/Pasukalu/lora-finetuning) | PEFT / QLoRA workflow with base-vs-tuned comparison, cost and latency tracking, and deployment recommendations. |
+| [Claude Design System Prompt](https://github.com/Pasukalu/claude-design-system-prompt) | An open-source system prompt and procedural skill library for accessible, anti-generic interface design. |
+| [VN-Lite](https://github.com/Pasukalu/vn-lite) | A browser-based visual-novel engine and editor with its own text DSL, branching narratives, save system, i18n, and E2E coverage. **[Try it live →](https://pasukalu.github.io/vn-lite/)** |
 
-## How I work
+## Engineering principles
 
-- **Measure quality, not just whether the demo runs.** Tests and evaluation gates belong close to the feature they protect.
-- **Make trade-offs visible.** Latency, cost, failure modes, and safety are part of the design.
-- **Ship understandable systems.** A good README, reproducible setup, and clear boundaries matter as much as the implementation.
-- **Build for iteration.** Small composable components make experiments easier to compare and real systems easier to extend.
+- **Measure before making claims:** golden sets, quality gates, latency, and cost belong next to the feature.
+- **Make failure visible:** structured errors, audit trails, retries, and explicit safety boundaries are part of the design.
+- **Keep the default path runnable:** projects use offline or stub modes so tests and demos do not depend on paid APIs.
+- **Ship the whole loop:** API, evaluation, documentation, CI, and a clear upgrade path matter as much as the core algorithm.
 
-## Toolbox
+## Beyond engineering
 
-**Languages**  
-Python · TypeScript · JavaScript · HTML / CSS · Shell
+Before focusing on AI systems, I worked across fan-game production, science video, music production, and community operations. Those projects reached **18k+ followers**, **8k-member communities**, and **100k+ plays**—experience that still informs my product sense, storytelling, and user empathy.
 
-**AI and backend**  
-FastAPI · LangGraph · Pydantic · PyTorch · sentence-transformers · PEFT
+## Let's connect
 
-**Platform and tooling**  
-Docker · GitHub Actions · React · Vite · SQLite · Playwright
+I'm open to AI Engineer opportunities and collaborations around LLM applications, developer tools, and creative technology.
 
-## Background
+- 📧 [mrpascalpa@icloud.com](mailto:mrpascalpa@icloud.com)
+- 💼 [Browse all repositories](https://github.com/Pasukalu?tab=repositories)
 
-Before focusing on AI engineering, I worked across content production, community projects, music, and game / visual-novel projects. That experience shapes how I build today: technically sound systems should also be understandable, useful, and worth returning to.
+<div align="center">
 
-## Connect
+_From bytes and tokens to agents and products—built with curiosity, evidence, and care._
 
-I am open to collaborating on AI engineering, developer tools, creative technology, and public-interest projects.
-
-- Email: [mrpascalpa@icloud.com](mailto:mrpascalpa@icloud.com)
-- GitHub: [@Pasukalu](https://github.com/Pasukalu)
-
-<p align="center">
-  <i>Build the system. Measure the result. Leave it easier to use than you found it.</i>
-</p>
+</div>
